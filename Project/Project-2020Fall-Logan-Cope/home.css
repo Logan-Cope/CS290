@@ -1,0 +1,22 @@
+/* resize images and center them */
+#myCarousel {
+	display: flex;
+	justify-content: center;
+	width: 640px;
+	height: 360px;
+	margin: auto;
+}
+
+.heading {
+	display: flex;
+	justify-content: center;
+}
+
+h2 {
+	display: flex;
+	justify-content: center;
+}
+#externalLink {
+	display: flex;
+	justify-content: center;
+}

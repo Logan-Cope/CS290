@@ -1,0 +1,20 @@
+* {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2 {
+	text-transform: capitalize;
+	color: #3498db;
+	font-size: 2.0rem;
+}
+
+/*some css scrollbox code adopted from Quackit */
+#scrollBox {
+	height: 120px;
+	width: 200px;
+	border: 1px solid #ccc;
+	overflow: auto;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}

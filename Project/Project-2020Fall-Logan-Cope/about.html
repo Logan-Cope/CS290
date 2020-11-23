@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Weapon X Training</title>
+</head>
+<body>
+    <!-- navbar code adopted from bootstrap 4 documentation-->
+    <!-- Create navbar with 3 links -->
+    <!-- Create Brand name logo -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">WeaponX</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <!-- Create 3 buttons that link to other pages of site -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <!-- make home-->
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <!-- make about button active-->
+            <li class="nav-item active">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <!-- sample button -->
+            <li class="nav-item">
+              <a class="nav-link" href="sample.html">Sample</a>
+            </li>
+            <!-- get trainer button -->
+            <li class="nav-item">
+              <a class="nav-link" href="getTrainer.html">Get Trainer!</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Make container for wolverine pic and text -->
+      <section class="container-fluid px-0">
+        <!-- make a row to hold image and text each taking up half the space-->
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <img src="images/wolverine2.jpg" id="wolverine2" alt="" class="img-fluid">
+          </div>        
+            <!--left align the text-->
+          <div class="col-md-6 text-left">
+            <h2>THE Weapon X</h2>
+            <p class="lead">
+              Yes you heard it! I am THE Weapon X. I have been training with unorthodox but incredibly
+              effective methods for over a century! You will have complete access to all my knowledge 
+              and motivation. Yes, you will be in direct contact with me and that is 100% fact. I can't 
+              wait to meet you!
+            </p>
+          </div>          
+        </div>
+      </section>
+      <!-- Make container for second wolverine pic and text -->
+      <section class="container-fluid px-0">
+        <!-- make a row told hold image and text each taking up half the space-->
+        <div class="row align-items-center">
+          <!-- text looks better centered on this one -->
+          <div class="col-md-6 text-center">
+            <h2>The OTHER Weapon X</h2>
+            <p class="lead">
+              I am the OTHER Weapon X...well my name is Logan (that makes it count, right?) It is entirely 
+              possible that I will be the only "Weapon X" you are ever in contact with...
+            </p>
+          </div>          
+          <div class="col-md-6">
+            <img src="images/otherWeaponX.png" id="silhouette" alt="" class="img-fluid">
+          </div>          
+          
+        </div>
+      </section>
+      <br>
+      <br>
+    <!-- cite images -->
+   <p> Top left image from wired website found at https://www.wired.com/2012/09/wolverine-image/</p>
+   <p> Bottom right image from pngkey website found at https://www.pngkey.com/detail/u2q8y3w7w7w7t4r5_bodybuilder-silhouette-png-bodybuilder-silhouette-clip-art/</p>
+
+    <!--calls for bootstrap and menu button functionality-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

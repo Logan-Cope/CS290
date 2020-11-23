@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="getTrainer.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Weapon X Training</title>
+</head>
+<body>
+    <!-- some navbar code adopted from bootstrap 4 documentation-->
+    <!-- Create navbar with 3 links -->
+    <!-- Create Brand name logo -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">WeaponX</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <!-- Create 3 buttons that link to other pages of site -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <!-- home button -->
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <!-- about button -->
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <!-- sample button -->
+            <li class="nav-item">
+              <a class="nav-link" href="sample.html">Sample</a>
+            </li>
+            <!-- make get trainer button active -->
+            <li class="nav-item active">
+              <a class="nav-link" href="getTrainer.html">Get Trainer!</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <div align="center">
+    <!-- <h1>Let's Get Pumpin!</h1> -->
+    <h2>Let's Get Pumpin!</h2>
+    <form>
+        <fieldset>
+            <div>
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name">
+          </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="userEmail">
+            </div>
+            <input type="submit" id="postForm">
+        </fieldset>
+      </form> 
+        <br>
+        <br>
+        <!-- Show output that was received to user -->
+        <h3>We have recieved the following data for you:</h3>
+        <p><span>Name: </span><span id="nameOutput"></span></p>
+        <p><span>Email: </span><span id="emailOutput"></span></p>   
+        <h4>If this is incorrect, please resubmit</h4>     
+    </div>
+
+    <!-- some scrollbox code adopted from Quackit -->
+    <div align="center" id="scrollBox">
+      DISCLAIMER: The exercises and meal plans that come with getting linked up with a trainer are
+      extremely INTENSE. Please proceed at your own risk, but know that you will be an absolute 
+      animal (or mutant?) if you decide to go forward!
+      </div>
+     
+      
+    <!--calls for bootstrap and menu button functionality-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
